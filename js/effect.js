@@ -8,11 +8,11 @@ $('document').ready(function(){
 			 vw = $(window).width()/2;
 			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 			$('#b11').animate({top:240, left: vw-350},500);
-			$('#b22').animate({top:240, left: vw-250},500);
-			$('#b33').animate({top:240, left: vw-150},500);
-			$('#b44').animate({top:240, left: vw-50},500);
-			$('#b55').animate({top:240, left: vw+50},500);
-			$('#b66').animate({top:240, left: vw+150},500);
+      $('#b22').animate({top:240, left: vw-210},500);  // S
+      $('#b33').animate({top:240, left: vw-130},500);  // U
+      $('#b44').animate({top:240, left: vw-50},500);  // N
+      $('#b55').animate({top:240, left: vw+30},500);  // T
+      $('#b66').animate({top:240, left: vw+110},500);  // Y
 			$('#b77').animate({top:240, left: vw+250},500);
 		});
 
